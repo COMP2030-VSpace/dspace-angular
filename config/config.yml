@@ -1,5 +1,5 @@
 rest:
   ssl: true
-  host: api7.dspace.org
+  host: vinspace.online
   port: 443
   nameSpace: /server

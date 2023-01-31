@@ -5,7 +5,7 @@
 /typings
 /tsd_typings/
 npm-debug.log
-
+/.yarn
 /build/
 
 /coverage

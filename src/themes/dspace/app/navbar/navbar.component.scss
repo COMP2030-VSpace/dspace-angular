@@ -43,8 +43,27 @@ nav.navbar {
   height: 80px;
 }
 
+a.navbar-brand {
+  display: flex;
+}
+
 a.navbar-brand img {
   max-height: var(--ds-header-logo-height);
+}
+
+a.navbar-brand {
+  .address {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0.0625rem;
+    height: 94%;
+    line-height: 2.5rem;
+    font-size: 1rem;
+    color: #2E5288;
+    font-weight: 700;
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
+    border-left: 0.0625rem solid red;
+  }
 }
 
 .navbar-nav {

@@ -332,7 +332,7 @@ export class DefaultAppConfig implements AppConfig {
           tagName: 'link',
           attributes: {
             'rel': 'icon',
-            'href': 'assets/dspace/images/favicons/favicon.svg',
+            'href': 'assets/dspace/images/favicons/favicon.ico',
             'type': 'image/svg+xml',
           }
         },
