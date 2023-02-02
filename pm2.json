@@ -1,0 +1,13 @@
+{
+    "apps": [
+        {
+            "name": "vinspace-angular",
+            "cwd": "/var/lib/jenkins/workspace/vinspace-angular",
+            "script": "npm",
+            "args": "start",
+            "env": {
+                "NODE_ENV": "production"
+            }
+        }
+    ]
+}
