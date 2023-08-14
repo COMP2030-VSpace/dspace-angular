@@ -10,7 +10,7 @@ import { ThemeConfig } from '../../../config/theme.model';
 
 @Component({
   selector: 'ds-test-themed-component',
-  templateUrl: './themed.component.html'
+  templateUrl: './'
 })
 class TestThemedComponent extends ThemedComponent<TestComponent> {
   protected inAndOutputNames: (keyof TestComponent & keyof this)[] = ['testInput'];

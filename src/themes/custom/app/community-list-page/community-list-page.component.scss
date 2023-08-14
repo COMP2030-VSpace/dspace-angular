@@ -1,0 +1,15 @@
+.component-container {
+    display: flex;
+    
+    .component {
+      /* Adjust spacing and alignment as needed */
+      margin-right: 20px; /* Add spacing between components */
+      align-self: flex-start; /* Align components to the top of the column */
+    }
+    
+    /* If you want to move all components to the left column */
+    .component:nth-child(n) {
+      order: 1; /* Adjust the order to place components in the desired sequence */
+    }
+  }
+  

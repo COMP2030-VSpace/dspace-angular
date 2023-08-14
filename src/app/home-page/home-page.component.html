@@ -1,9 +1,54 @@
 <ds-themed-home-news></ds-themed-home-news>
-<div class="container">
-  <ng-container *ngIf="(site$ | async) as site">
-    <ds-view-tracker [object]="site"></ds-view-tracker>
-  </ng-container>
-  <ds-search-form [inPlaceSearch]="false" [searchPlaceholder]="'home.search-form.placeholder' | translate"></ds-search-form>
-  <ds-top-level-community-list></ds-top-level-community-list>
-  <ds-recent-item-list *ngIf="recentSubmissionspageSize>0"></ds-recent-item-list>
+<!-- <div id="ds-header">
+  <a class="ds-header-title">VinSpace</a>
+</div> -->
+<div id="ds-main"> 
+  <div id="ds-body">
+    <ng-container *ngIf="(site$ | async) as site">
+      <ds-view-tracker [object]="site"></ds-view-tracker>
+    </ng-container>
+    <h1 class="ds-option-set-head" id="ds-search-option-head">VinSpace Repository</h1>
+    <p>
+      VinSpace is an open access institutional repository provided by the Lusi Wong Library for scholarly research
+      produced by members of the Renison University College community. It enables members of the
+      Renison University College community to post, organize and preserve their research and publication online.
+    </p>
+    <p>Please check if your publisher allows self-archiving at SHERPA/RoMEo's publisher copyright policies</p>
+    <h1 class="ds-option-set-head" id="ds-search-option-head">Community in VinSpace</h1>
+    <ds-top-level-community-list>
+    </ds-top-level-community-list>
+    <ds-recent-item-list *ngIf="recentSubmissionspageSize>0"></ds-recent-item-list>
+
+  </div>
+
+  <div id="ds-options">
+    <h3 class="ds-option-set-head" id="ds-search-option-head">Search VinSpace</h3>
+    <div class="ds-option-set" id="ds-search-option">
+      <ds-search-form [inPlaceSearch]="false"
+      ></ds-search-form>
+    </div>
+    <h3 class="ds-option-set-head">Browse</h3>
+    <div id="aspect_viewArtifacts_Navigation_list_browse" class="ds-option-set">
+      <!-- Browse Links Code -->
+    </div>
+    <h3 class="ds-option-set-head">My Account</h3>
+    <div id="aspect_viewArtifacts_Navigation_list_account" class="ds-option-set">
+      <!-- Account Links Code -->
+    </div>
+    <h3 class="ds-option-set-head">Discover</h3>
+    <div id="aspect_discovery_Navigation_list_discovery" class="ds-option-set">
+      <!-- Discover Links Code -->
+    </div>
+    <h3 class="ds-option-set-head" id="ds-feed-option-head">RSS Feeds</h3>
+    <div class="ds-option-set" id="ds-feed-option">
+      <!-- RSS Feeds Links Code -->
+    </div>
+    <h3 class="ds-option-set-head" id="ds-about-option">
+      About and FAQ
+    </h3>
+    <div class="ds-option-set" id="ds-about-option">
+      <!-- About and FAQ Links Code -->
+    </div>
+  </div>
+  
 </div>
