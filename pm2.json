@@ -1,10 +1,9 @@
 {
     "apps": [
         {
-            "name": "vinspace-angular",
-            "cwd": "/var/lib/jenkins/workspace/vinspace-angular",
-            "script": "npm",
-            "args": "run start:prod",
+            "name": "my_project",
+            "cwd": "/home/giang/my_project",
+            "script": "npm start", 
             "env": {
                 "NODE_ENV": "production"
             }
