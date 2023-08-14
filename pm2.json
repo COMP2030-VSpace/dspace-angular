@@ -2,7 +2,7 @@
     "apps": [
         {
             "name": "my_project",
-            "cwd": "/home/giang/my_project",
+            "cwd": "/home/giang/my_project/dspace-angular",
             "script": "npm start", 
             "env": {
                 "NODE_ENV": "production"
