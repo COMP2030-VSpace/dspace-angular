@@ -4,7 +4,7 @@
             "name": "vinspace-angular",
             "cwd": "/var/lib/jenkins/workspace/vinspace-angular",
             "script": "npm",
-            "args": "start",
+            "args": "run start:prod",
             "env": {
                 "NODE_ENV": "production"
             }
