@@ -1,7 +1,7 @@
 
 body {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    font-size: .8em;
+    font-size: .7em;
     text-align: center;
 }
 
@@ -16,7 +16,7 @@ div#ds-header {
     padding: 3px;
     margin-left: 0;
     color: inherit;
-    background-color: rgb(255, 255, 240);
+    background-color: rgb(233, 236, 239);
     border-top: 2px solid rgb(245, 245, 216);
 }
 
@@ -40,8 +40,8 @@ div#ds-body {
     width: 70%;
     clear: left;
     color: inherit;
-    background-color: rgb(240, 240, 210);
-    border: 2px solid rgb(240, 240, 210);
+    background-color: rgb(233, 236, 239);
+    border: 2px solid rgb(233, 236, 239);
     margin: 15px 0px 0px 0px;
     padding-bottom: 30px;
     padding-left: 2%;
@@ -53,7 +53,7 @@ div#ds-body h1 {
     padding: 10px 0 0 0;
     margin-top: 10px;
     margin-bottom: 5px;
-    color: #0A8E22;
+    color: #000000;
     background-color: inherit;
     font-weight: bolder;
 }
@@ -67,8 +67,8 @@ ul.ds-progress-list {
 ul.ds-progress-list li {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    background-color: rgb(255, 255, 240);
-    border: 1px solid rgb(240, 240, 210);
+    background-color: rgb(233, 236, 239);
+    border: 1px solid rgb(233, 236, 239);
     color: rgb(233, 160, 80);
     overflow: hidden;
     display: inline;
@@ -160,7 +160,7 @@ form.search select {
 form.search fieldset,form.navigation fieldset {
     color: inherit;
     background-color: rgb(255, 255, 245);
-    border: 2px solid rgb(240, 240, 210);
+    border: 2px solid rgb(233, 236, 239);
     padding: 5px 5px 5px 5px;
 }*/
 
@@ -199,8 +199,8 @@ div.pagination {
     position: relative;
     padding: 0px;
     color: inherit;
-    background-color: rgb(255, 255, 240);
-    border: 2px solid rgb(240, 240, 210);
+    background-color: rgb(233, 236, 239);
+    border: 2px solid rgb(233, 236, 239);
     margin: 2px 0px 5px 1px;
 }
 
@@ -211,8 +211,8 @@ div.pagination * {
 div.pagination-masked {
     position: relative;
     color: inherit;
-    background-color: rgb(255, 255, 240);
-    border: 2px solid rgb(240, 240, 210);
+    background-color: rgb(233, 236, 239);
+    border: 2px solid rgb(233, 236, 239);
     margin-bottom: 5px;
 }
 
@@ -332,13 +332,13 @@ div.primary {
 table {
     clear: both;
     border-spacing: 0px;
-    border: 2px solid rgb(240, 240, 210);
+    border: 2px solid rgb(233, 236, 239);
     width: 100%;
 }
 
 tr.ds-table-header-row {
     color: inherit;
-    background-color: rgb(240, 240, 210);
+    background-color: rgb(233, 236, 239);
 }
 
 tr.ds-table-header-row.subheader {
@@ -498,7 +498,7 @@ div.ds-static-div {
 }
 
 ul.ds-artifact-list {
-    border: 2px solid rgb(240, 240, 210);
+    border: 2px solid rgb(233, 236, 239);
     padding: 0px;
     list-style-type: none;
     margin: 0px;
@@ -617,7 +617,7 @@ fieldset.ds-radio-field label {
 /* The form list and and its components voodoo */
 /* Top-level stuff */
 fieldset.ds-form-list {
-    border: 2px solid rgb(240, 240, 210);
+    border: 2px solid rgb(233, 236, 239);
     padding: 0;
     color: inherit;
     background-color: rgb(255, 255, 245);
@@ -627,7 +627,7 @@ fieldset.ds-form-list {
 }
 
 fieldset.ds-form-list.thick {
-    border-top: 22px solid rgb(240, 240, 210);
+    border-top: 22px solid rgb(233, 236, 239);
 }
 
 fieldset.ds-form-list ol {
@@ -647,14 +647,14 @@ fieldset.ds-form-list legend {
 fieldset.thick legend {
     color: #DF6E00;
     background-color: rgb(255, 255, 245);
-    border-top: 2px solid rgb(240, 240, 210);
+    border-top: 2px solid rgb(233, 236, 239);
     padding-left: 10px;
     padding-right: 30px;
 }
 
 /* Top-level stuff for the nested "form" lists */
 fieldset.ds-form-sublist {
-    border: 1px solid rgb(240, 240, 210);
+    border: 1px solid rgb(233, 236, 239);
     padding: 0;
     margin: 5px;
 }
@@ -698,7 +698,7 @@ form.ds-interactive-div li.even {
 }
 
 form.ds-interactive-div li.ds-form-item.last {
-    border-top: 2px solid rgb(240, 240, 210);
+    border-top: 2px solid rgb(233, 236, 239);
     color: inherit;
     background-color: rgb(248, 248, 217);
 }
@@ -814,8 +814,8 @@ div.ds-option-set {
     width: 90;
     // margin: -3px 0px 0px 0px;
     color: inherit;
-    background-color: rgb(255, 255, 240);
-    border: 2px solid rgb(240, 240, 210);
+    background-color: rgb(233, 236, 239);
+    border: 2px solid rgb(233, 236, 239);
 }
 
 div#ds-search-option input {
@@ -859,18 +859,19 @@ form#ds-search-form {
 
 div#ds-options h3 {
     position: relative;
+    font-size: 2.7em;
     top: 22px;
     left: 5px;
     margin: 0 2px 0 0;
     padding: 0px;
-    color: #0A8E22;
-    background-color: rgb(255, 255, 240);
+    color: #000000;
+    background-color: rgb(233, 236, 239);
 }
 
 div#ds-options h4 {
     margin-top: 0px;
     margin-bottom: 0px;
-    color: #0A8E22;
+    color: #000000;
     background-color: inherit;
 }
 
@@ -909,7 +910,7 @@ div#ds-footer {
     height: 90px;
     float: left;
     width: 105%;
-    border: 3px solid rgb(240, 240, 210);
+    border: 3px solid rgb(233, 236, 239);
 }
 
 span#ds-footer-logo {
@@ -949,8 +950,8 @@ div#ds-footer a#ds-logo-link {
 }
 
 div.notice {
-    background-color: rgb(255, 255, 240);
-    border: 1px solid rgb(240, 240, 210);
+    background-color: rgb(233, 236, 239);
+    border: 1px solid rgb(233, 236, 239);
     padding: 6px;
     text-align: center;
     margin: 10px 30px 10px 30px;
@@ -1030,8 +1031,8 @@ span.warn {
 
 /* System-wide alerts */
 div#ds-system-wide-alert {
-    background-color: rgb(255, 255, 240);
-    border: 1px solid rgb(240, 240, 210);
+    background-color: rgb(233, 236, 239);
+    border: 1px solid rgb(233, 236, 239);
     padding: 6px;
     margin: 10px 30px 10px 30px;
     color: rgb(213, 80, 40);
@@ -1040,7 +1041,7 @@ div#ds-system-wide-alert {
 
 /* admin tabs */
 form.administrative {
-    border: 1px solid rgb(240, 240, 210);
+    border: 1px solid rgb(233, 236, 239);
     border-top: 0px;
     width: inherit;
 }
@@ -1071,7 +1072,7 @@ ul.horizontal {
     padding: 0px;
     padding-left: 0px;
     padding-bottom: 24px;
-    border-bottom: 1px solid rgb(240, 240, 210);
+    border-bottom: 1px solid rgb(233, 236, 239);
     border-left: 1px solid white;
     border-right: 1px solid white;
     margin: 0px;
@@ -1085,7 +1086,7 @@ ul.horizontal li {
     height: 21px;
     background-color: rgb(252, 252, 232);
     margin: 2px 2px 0px 2px;
-    border: 1px solid rgb(240, 240, 210);
+    border: 1px solid rgb(233, 236, 239);
 }
 
 
@@ -1303,7 +1304,7 @@ ul.horizontalVanilla li {
     height: 100%;
     background-color: rgb(255, 255, 255);
     margin: 2px 2px 0px 2px;
-    /* border: 1px solid rgb(240, 240, 210); */
+    /* border: 1px solid rgb(233, 236, 239); */
 }
 
 /* DS-1044 For select a collection select box to show full name of collection.  */
