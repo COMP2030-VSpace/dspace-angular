@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, OnInit, OnDestroy, Inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit, OnDestroy, Inject, Input } from '@angular/core';
 
 import { BehaviorSubject, combineLatest as observableCombineLatest, Subscription } from 'rxjs';
 
@@ -17,6 +17,7 @@ import { AppConfig, APP_CONFIG } from 'src/config/app-config.interface';
 /**
  * this component renders the Top-Level Community list
  */
+
 @Component({
   selector: 'ds-top-level-community-list',
   styleUrls: ['./top-level-community-list.component.scss'],
@@ -45,6 +46,8 @@ export class TopLevelCommunityListComponent implements OnInit, OnDestroy {
    * The sorting configuration
    */
   sortConfig: SortOptions;
+
+  @Input() simpleView = false;
 
   /**
    * The subscription to the observable for the current page.
