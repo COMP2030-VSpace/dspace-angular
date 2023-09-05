@@ -7,14 +7,38 @@
     <ng-container *ngIf="(site$ | async) as site">
       <ds-view-tracker [object]="site"></ds-view-tracker>
     </ng-container>
-    <h1 class="ds-option-set-head" id="ds-search-option-head">VinSpace Repository</h1>
-    <p>
-      VinSpace is an open access institutional repository provided by VinUniversity Library for scholarly research
-      produced
-      by members of the VinUniversity community. It enables members of the VinUniversity community to post, organize,
-      preserve and disseminate their research and publication online.
-    </p>
-    <p>Please check if your publisher allows self-archiving at <a href="https://v2.sherpa.ac.uk/romeo/">SHERPA/RoMEo's</a> publisher copyright policies</p>
+    <h1 class="ds-option-set-head" id="ds-search-option-head">WELCOME TO VinSPACE</h1>
+      <p>Vinspace is an open access repository provided by VinUni Library for scholarly research produced by members of the VinUniversity community.</p>
+      
+      <h2> What is Open Access?</h2>
+      Open Access is a method of scholarly publishing which is available online free to the user. Open Access users may freely copy, distribute and used with proper attribution
+      
+      Open Access is not:
+      Cost free or cheaper than traditional scholarly communication
+      Lower quality than other methods of scholarly communication
+      Free to producers or free of rights
+      Inconsistent with peer review
+      
+      <h2> What are the benefits of VinSpace for researchers and institution? </h2>
+      Benefits For Researchers
+      More Exposure to your research: By publishing in a journal, your research is available only to people who subscribe to that journal or have access to a library that subscribes to that journal. By publishing your research in an institutional repository, you make it available to anyone who is interested. Open Access breaks down the barriers in research accessibility between rich countries and Poor countries.
+      
+      Higher research impact: Studies show that items published in an open access repository are often cited much more frequently than items published using traditional methods.
+      
+      Easier Compliance with Open Access Mandates: Allows compliance with funding agencies such that have Open Access Policies
+      
+      More Discoverability: Open access articles are fully searchable by search engines such as Google and Google Scholar.
+      
+      Persistent Access: Items in VinSpace are given a persistent URL that will not break. This means you can cite your item and not worry about the link changing in the future.
+      
+      Long Term preservation: The library will take care of preserving your item and updating the format when necessary.
+      
+      
+      Benefits for Renison University College:
+      More exposure for our institution: By publishing in an institutional repository you can potentially make the research created by our institution available to a greater range of people. By collecting all of the University Colleges research in one place, an institutional repository has the potential to give a more complete picture of our research output. This can help give a more complete picture of our research output to potential students, faculty members and donors. This can also help faculty in administrative roles evaluate the the research quality of different departments and colleges.
+    <p>Please check if your publisher allows self-archiving at <a
+        href="https://v2.sherpa.ac.uk/romeo/">SHERPA/RoMEo's</a> publisher copyright policies</p>
+    <h1 class="ds-option-set-head" id="ds-search-option-head">WELCOME TO VinSPACE</h1>
     <h1 class="ds-option-set-head" id="ds-search-option-head">Community in VinSpace</h1>
     <ds-top-level-community-list>
     </ds-top-level-community-list>
@@ -25,12 +49,14 @@
   <div id="ds-options">
     <h3 class="ds-option-set-head" id="ds-search-option-head">Search VinSpace</h3>
     <div class="ds-option-set" id="ds-search-option">
-      <ds-search-form [inPlaceSearch]="false" [searchPlaceholder]="'home.search-form.placeholder' | translate"></ds-search-form>
+      <ds-search-form [inPlaceSearch]="false"
+        [searchPlaceholder]="'home.search-form.placeholder' | translate"></ds-search-form>
     </div>
     <h3 class="ds-option-set-head">Browse</h3>
     <div id="aspect_viewArtifacts_Navigation_list_browse" class="ds-option-set">\
-      <li></li>
-      <li></li>
+      <a [routerLink]="['/browse/title']">Browse by Title</a>
+      <a [routerLink]="['/browse/date']">Browse by Date</a>
+      >
     </div>
     <h3 class="ds-option-set-head">My Account</h3>
     <div id="aspect_viewArtifacts_Navigation_list_account" class="ds-option-set">
@@ -39,7 +65,9 @@
     <h3 class="ds-option-set-head">Discover</h3>
     <div id="aspect_discovery_Navigation_list_discovery" class="ds-option-set">
       <div id="aspect_discovery_Navigation_list_discovery" class="ds-option-set">
+      </div>
     </div>
+
     <h3 class="ds-option-set-head" id="ds-about-option">
       About and FAQ
     </h3>
