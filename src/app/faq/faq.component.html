@@ -1,0 +1,50 @@
+<div id="ds-main">
+    <div id="ds-body">
+        <div id="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            
+            <h3>Q: Who may deposit work into RSpace:</h3>
+            <p>Faculty members (current, emeritus, and retired), researchers, librarians, archivists, and staff members of VinUniversity may deposit appropriate materials in VinSpace. Retrospective deposits of materials published or created before the authors joined Renison are permitted as long as the authors are currently affiliated with VinUni. Retrospective deposits of materials by authors who are no longer affiliated with VinUni are acceptable as long as the materials to be deposited were published or created by the authors during their tenures at VinUni.</p>
+    
+            <h3>Q: Am I allowed to deposit my work into VinSpace?</h3>
+            <p>A: That depends on whether your work that has already been published or not. If it has not been published, you are automatically the copyright holder as the creator of the work. If your work has been published, your ability to publish is based on the agreement you made with the publisher of the book or journal you have published in. If you want to check some the publishing agreement you can try to search for the journal in Sherpa/Romeo. If you cannot find any information about your journal or still have questions, please contact the Library.</p>
+    
+            <h3>Q: What types of works are acceptable to publish in VinSpace:</h3>
+            <p>Any scholarly, artistic, or research oriented work produced by any faculty or staff member of VinUniversity. Types of items accepted include: learning objects, articles, technical reports, working papers, conference papers, research centre archives, e-portfolios, academic research, and more.</p>
+    
+            <h3>Q: What rights will the VinUniversity have if I decide to deposit my work in VinSpace?</h3>
+            <p>A: You give the VinUniversity Library the non-exclusive rights to reproduce, distribute, and convert the format of the item for preservation purposes. You do NOT transfer copyright to the College.</p>
+    
+            <h3>Q: Can I decide what users may or may not do with my work?</h3>
+            <p>A: Yes! We recommend that you license your work with creative commons. Use their handy license selector tools to decide how to license your work.</p>
+      </div>
+    </div>
+  
+    <div id="ds-options">
+      <h3 class="ds-option-set-head" id="ds-search-option-head">Search VinSpace</h3>
+      <div class="ds-option-set" id="ds-search-option">
+        <ds-search-form [inPlaceSearch]="false"
+          [searchPlaceholder]="'home.search-form.placeholder' | translate"></ds-search-form>
+      </div>
+      <h3 class="ds-option-set-head">Browse</h3>
+      <div id="ds-option-set" class="ds-option-set">
+        <li><a routerLink="/browse/title">Browse by Title</a></li>
+        <li><a routerLink="/browse/dateissued">Browse by Date</a></li>
+        <li><a routerLink="/browse/author">Browse by Author</a></li>
+        <li><a routerLink="/community-list">Browse by Community</a></li>
+      </div>
+      <h3 class="ds-option-set-head">My Account</h3>
+      <div id="ds-option-set" class="ds-option-set">
+        <a routerLink="/login" id="login">Login</a>
+      </div>
+      <h3 class="ds-option-set-head" id="ds-about-option">About and FAQ</h3>
+      <div class="ds-option-set" id="ds-option-set">
+          <li><a routerLink="/about" id="route-options">About</a></li>
+          <li><a routerLink="/faq" id="route-options">FAQ</a></li>
+          <li><a routerLink="/teammember" id="route-options">Team Member</a></li>
+      </div>
+    </div>
+  
+  
+  
+  </div>

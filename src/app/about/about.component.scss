@@ -66,7 +66,162 @@ div#ds-body h2 {
     background-color: inherit;
     // font-weight: bolder;
 }
+div#ds-body div#open-access li {
+    // font-size: 1.3em;
+    padding: 0 20px 0 0;
+    // margin-top: 10px;
+    // font-weight: bolder;
+}
+div#ds-body h3 {
+    position: relative;
+    font-size: 1.2em;
+    // top: 22px;
+    // left: 5px;
+    // margin: 0 2px 0 0;
+    padding: 0px;
+    color: #4b8e29;
+    // font-weight: bolder;
+}
+ul.ds-progress-list {
+    margin: 0 0 10px 0;
+    padding: 2px 0px;
+    text-align: center;
+}
+div#ds-body div#benefit p {
+    // font-size: 1.3em;
+    padding: 0 70px 0 0;
+    // margin-top: 10px;
+    // font-weight: bolder;
+}
 
+
+ul.ds-progress-list li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(239,239,195);
+    border: 1px solid rgb(239,239,195);
+    color: rgb(233, 160, 80);
+    overflow: hidden;
+    display: inline;
+    padding: 4px 3px;
+    margin-top: 2px;
+    margin-left: 3px;
+    max-width: 400px;
+    line-height: 20px;
+}
+
+ul.ds-progress-list li.button {
+    background-color: inherit;
+    border: none;
+    padding: 1px !important;
+    margin-top: 2px;
+    margin-left: 0px !important;
+}
+
+ul.ds-progress-list li.button input.ds-button-field {
+    font-size: smaller;
+}
+
+ul.ds-progress-list li.current.button input.ds-button-field {
+    color: rgb(10, 175, 10);
+}
+
+ul.ds-progress-list li.disabled.button input.ds-button-field {
+    color: rgb(184, 184, 184);
+}
+
+
+ul.ds-progress-list li.current {
+    color: rgb(80, 183, 40);
+    background-color: inherit;
+    border-color: rgb(216, 245, 216);
+}
+
+ul.ds-progress-list li.arrow {
+    border: none;
+    background: none;
+    font-size: 120%;
+    font-weight: normal;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+ul.alphabet {
+    padding-left: 10px;
+    padding-top: 0px;
+    margin: 5px 0px 0px 0px;
+    text-align: center;
+}
+
+ul.alphabet li {
+    list-style: none;
+    display: inline;
+    margin-right: 5px;
+    font-weight: 200;
+}
+
+ul.alphabet a {
+    font-weight: 600;
+    color: rgb(100, 100, 50);
+    background-color: inherit;
+}
+
+ul.alphabet a:hover {
+    font-weight: 600;
+    color: rgb(150, 150, 50);
+    background-color: inherit;
+}
+
+/*
+form.search {
+    margin: 0px;
+    padding: 0px;
+}
+
+form.search select {
+    max-width: 200px;
+}
+
+*.collection.search-browse,*.community.search-browse {
+    width: 340px;
+    float: left;
+    margin: 5px 12px 5px 0px;
+}
+
+form.search fieldset,form.navigation fieldset {
+    color: inherit;
+    background-color: rgb(255, 255, 245);
+    border: 2px solid rgb(239,239,195);
+    padding: 5px 5px 5px 5px;
+}*/
+
+form.search li {
+    margin: 0;
+    padding: 0px !important;
+}
+
+form.navigation input,
+form.navigation select {
+    margin-left: 5px;
+}
+
+form.navigation p {
+    text-align: center;
+}
+
+/*
+form.search table {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
+
+form.search table th {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+}
+*/
 div.browse {
     display: none;
 }
@@ -686,21 +841,14 @@ div#ds-options {
 }
 
 div.ds-option-set {
-    padding: 28px 2px 3px 2px;
+    padding: 30px 2px 3px 2px;
+    width: 90;
     // margin: -3px 0px 0px 0px;
     color: inherit;
     background-color: rgb(239,239,195);
+    border: 2px solid rgb(239,239,195);
+}
 
-}
-div.ds-options-set li a{
-    font-size: 0.6em;
-    padding: 10px 0 0 0;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    color: #000000;
-    background-color: inherit;
-    font-weight: bolder;
-}
 div#ds-search-option input {
     font-size: 90%;
 }
@@ -1333,3 +1481,24 @@ div.vocabulary-container li.error {
 .didYouMean a {
     font-weight: bold;
 }
+
+/*
+ FILE ARCHIVED ON 06:46:56 May 25, 2018 AND RETRIEVED FROM THE
+ INTERNET ARCHIVE ON 03:56:36 Aug 10, 2023.
+ JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+ ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+ SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+captures_list: 403.735
+exclusion.robots: 0.119
+exclusion.robots.policy: 0.108
+cdx.remote: 0.062
+esindex: 0.009
+LoadShardBlock: 349.599 (3)
+PetaboxLoader3.datanode: 72.312 (4)
+load_resource: 73.655
+PetaboxLoader3.resolve: 43.074
+*/
