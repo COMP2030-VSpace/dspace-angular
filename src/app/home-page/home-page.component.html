@@ -1,7 +1,5 @@
 <ds-themed-home-news></ds-themed-home-news>
-<!-- <div id="ds-header">
-  <a class="ds-header-title">VinSpace</a>
-</div> -->
+
 <div id="ds-main">
   <div id="ds-body">
     <ng-container *ngIf="(site$ | async) as site">
@@ -26,28 +24,21 @@
         [searchPlaceholder]="'home.search-form.placeholder' | translate"></ds-search-form>
     </div>
     <h3 class="ds-option-set-head">Browse</h3>
-    <div id="aspect_viewArtifacts_Navigation_list_browse" class="ds-option-set">\
-      <li>
-        <a routerLink="/browse/title">Browse by Title</a>
-      </li>
-      <li>
-        <a routerLink="/browse/date">Browse by Date</a>
-      </li>
+    <div id="ds-option-set" class="ds-option-set">
+      <li><a routerLink="/browse/title">Browse by Title</a></li>
+      <li><a routerLink="/browse/dateissued">Browse by Date</a></li>
+      <li><a routerLink="/browse/author">Browse by Author</a></li>
+      <li><a routerLink="/community-list">Browse by Community</a></li>
     </div>
     <h3 class="ds-option-set-head">My Account</h3>
-    <div id="aspect_viewArtifacts_Navigation_list_account" class="ds-option-set">
-
+    <div id="ds-option-set" class="ds-option-set">
+      <a routerLink="/login" id="login">Login</a>
     </div>
-    <h3 class="ds-option-set-head">Policy</h3>
-    <div id="aspect_discovery_Navigation_list_discovery" class="ds-option-set">
-
-    </div>
-
-    <h3 class="ds-option-set-head" id="ds-about-option">
-      About and FAQ
-    </h3>
-    <div class="ds-option-set" id="ds-about-option">
-
+    <h3 class="ds-option-set-head" id="ds-about-option">About and FAQ</h3>
+    <div class="ds-option-set" id="ds-option-set">
+        <li><a routerLink="/about" id="route-options">About</a></li>
+        <li><a routerLink="/faq" id="route-options">FAQ</a></li>
+        <li><a routerLink="/teammember" id="route-options">Team Member</a></li>
     </div>
   </div>
 

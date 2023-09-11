@@ -37,6 +37,21 @@
         // padding: 5px;
         font-size: smaller;
       }
+      div#ds-footer {
+        display: flex;   /* Enables flexbox */
+        align-items: center;   /* Vertically aligns the items in the center */
+        justify-content: flex-start;   /* Aligns items to the start of the container (left) */
+        gap: 20px;   /* Provides a gap between the items */
+      }
+      
+      div#ds-footer a#ds-logo-link img {
+        padding: 10px;
+        // width: 100px; 
+        // height: auto; 
+        margin-right: 15px;  /* This gives some spacing between the image and the text */
+      }
+      
+      
     }
   }
 }

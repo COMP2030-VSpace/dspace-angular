@@ -40,6 +40,9 @@ import {
 import { ServerCheckGuard } from './core/server-check/server-check.guard';
 import { MenuResolver } from './menu.resolver';
 import { ThemedPageErrorComponent } from './page-error/themed-page-error.component';
+import { AboutComponent } from './about/about.component';
+import { FAQComponent } from './faq/faq.component';
+import { TeamMemberComponent } from './team-member/team-member.component';
 
 @NgModule({
   imports: [
@@ -65,6 +68,18 @@ import { ThemedPageErrorComponent } from './page-error/themed-page-error.compone
               .then((m) => m.HomePageModule),
             data: { showBreadcrumbs: false },
             canActivate: [EndUserAgreementCurrentUserGuard]
+          },
+          {
+            path: 'about',
+            component: AboutComponent
+          },
+          {
+            path: 'faq',
+            component: FAQComponent
+          },
+          {
+            path: 'teammember',
+            component: TeamMemberComponent
           },
           {
             path: 'community-list',

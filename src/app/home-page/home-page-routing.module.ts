@@ -33,15 +33,7 @@ import { MenuItemType } from '../shared/menu/menu-item-type.model';
         resolve: {
           site: HomePageResolver
         }
-      },
-      {  // Add this new route for "Browse by Title"
-        path: 'browse/title',
-        component: BrowseByTitlePageComponent
-      },
-      {  // Add this new route for "Browse by Date"
-        path: 'browse/date',
-        component: BrowseByDatePageComponent
-      },
+      }
     ])
   ],
   providers: [
