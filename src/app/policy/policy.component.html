@@ -1,0 +1,40 @@
+<div id="ds-main">
+    <div id="ds-body">
+        <div id="policy-link">
+            <h2>Policy</h2>
+            <p>Please link to <a href="https://policy.vinuni.edu.vn/all-policies/regulations-for-research-activity-management/">Research Activity Management - VinUni Policy</a>, 9.1. Openness in Research.</p>
+          </div>
+        
+          <div id="library-link">
+            <h2>VinUni library</h2>
+            <p>Please link to <a href="https://library.vinuni.edu.vn/">VinUni library: Library - VinUniversity</a></p>
+          </div>
+
+    </div>
+    <div id="ds-options">
+        <h3 class="ds-option-set-head" id="ds-search-option-head">Search VinSpace</h3>
+        <div class="ds-option-set" id="ds-search-option">
+          <ds-search-form [inPlaceSearch]="false"
+            [searchPlaceholder]="'home.search-form.placeholder' | translate"></ds-search-form>
+        </div>
+        <h3 class="ds-option-set-head">Browse</h3>
+        <div id="ds-option-set" class="ds-option-set">
+          <li><a routerLink="/browse/title">Browse by Title</a></li>
+          <li><a routerLink="/browse/dateissued">Browse by Date</a></li>
+          <li><a routerLink="/browse/author">Browse by Author</a></li>
+          <li><a routerLink="/community-list">Browse by Community</a></li>
+        </div>
+        <h3 class="ds-option-set-head">My Account</h3>
+        <div id="ds-option-set" class="ds-option-set">
+          <a routerLink="/login" id="login">Login</a>
+        </div>
+        <h3 class="ds-option-set-head" id="ds-about-option">About and FAQ</h3>
+        <div class="ds-option-set" id="ds-option-set">
+            <li><a routerLink="/about" id="route-options">About</a></li>
+            <li><a routerLink="/faq" id="route-options">FAQ</a></li>
+            <li><a routerLink="/teammember" id="route-options">Team Member</a></li>
+            <li><a routerLink="/policy" id="route-options">Policy</a></li>
+            
+        </div>
+      </div>
+</div>

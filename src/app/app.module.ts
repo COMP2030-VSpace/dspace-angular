@@ -31,6 +31,7 @@ import { RootModule } from './root.module';
 import { AboutComponent } from './about/about.component';
 import { FAQComponent } from './faq/faq.component';
 import { TeamMemberComponent } from './team-member/team-member.component';
+import { PolicyComponent } from './policy/policy.component';
 
 export function getConfig() {
   return environment;
@@ -126,6 +127,7 @@ const EXPORTS = [
     AboutComponent,
     FAQComponent,
     TeamMemberComponent,
+    PolicyComponent,
   ],
   exports: [
     ...EXPORTS,
