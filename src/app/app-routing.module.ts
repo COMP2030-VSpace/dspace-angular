@@ -43,7 +43,6 @@ import { ThemedPageErrorComponent } from './page-error/themed-page-error.compone
 import { AboutComponent } from './about/about.component';
 import { FAQComponent } from './faq/faq.component';
 import { TeamMemberComponent } from './team-member/team-member.component';
-import { PolicyComponent } from './policy/policy.component';
 
 @NgModule({
   imports: [
@@ -77,10 +76,6 @@ import { PolicyComponent } from './policy/policy.component';
           {
             path: 'faq',
             component: FAQComponent
-          },
-          {
-          path: 'policy',
-          component: PolicyComponent
           },
           {
             path: 'teammember',
