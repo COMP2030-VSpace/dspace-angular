@@ -1,5 +1,5 @@
 rest:
   ssl: true
-  host: vinspace.online
+  host: vinspace.site
   port: 443
   nameSpace: /server
