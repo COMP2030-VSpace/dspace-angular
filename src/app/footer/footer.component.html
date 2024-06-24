@@ -1,86 +1,21 @@
 <footer class="text-lg-start">
-  <div *ngIf="showTopFooter" class="top-footer">
-    <!-- Grid container -->
-    <div class=" container p-4">
-      <!--Grid row-->
-      <div class="row">
-
-        <!--Grid column-->
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-          <h5 class="text-uppercase">Footer Content</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a routerLink="./" class="">Lorem ipsum</a>
-            </li>
-            <li>
-              <a routerLink="./" class="">Ut facilisis</a>
-            </li>
-            <li>
-              <a routerLink="./" class="">Aenean sit</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-          <h5 class="text-uppercase">Footer Content</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a routerLink="./" class="">Suspendisse potenti</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Footer Content</h5>
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-            voluptatem veniam, est atque cumque eum delectus sint!
-          </p>
-        </div>
-        <!--Grid column-->
-      </div>
-      <!--Grid row-->
-    </div>
-  </div>
   <!-- Grid container -->
 
   <!-- Copyright -->
-  <div class="bottom-footer p-1 d-flex justify-content-center align-items-center text-white">
-    <div class="content-container">
-      <p class="m-0">
-        <!-- <a class="text-white"
-           href="http://www.dspace.org/">{{ 'footer.link.dspace' | translate}}</a>
-        {{ 'footer.copyright' | translate:{year: dateObj | date:'y'} }}
-        <a class="text-white"
-           href="https://www.lyrasis.org/">{{ 'footer.link.lyrasis' | translate}}</a> -->
-           {{ 'footer.link.dspace' | translate}} {{ 'footer.copyright' | translate:{year: dateObj | date:'y'} }} {{ 'footer.link.lyrasis' | translate}}
-      </p>
-      <ul class="footer-info list-unstyled small d-flex justify-content-center mb-0">
-        <li>
-          <a class="text-white" href="javascript:void(0);"
-             (click)="showCookieSettings()">{{ 'footer.link.cookies' | translate}}</a>
-        </li>
-        <li *ngIf="showPrivacyPolicy">
-          <a class="text-white"
-             routerLink="info/privacy">{{ 'footer.link.privacy-policy' | translate}}</a>
-        </li>
-        <li *ngIf="showEndUserAgreement">
-          <a class="text-white"
-             routerLink="info/end-user-agreement">{{ 'footer.link.end-user-agreement' | translate}}</a>
-        </li>
-        <li>
-          <a class="text-white"
-             routerLink="info/feedback">{{ 'footer.link.feedback' | translate}}</a>
-        </li>
-      </ul>
+  <div class="bottom-footer">
+      <div id="ds-footer">
+        <a href="#" id="ds-logo-link">
+          <img src="assets/images/vinuni-logo.png" alt="VinUni Logo" />
+        </a>
+        
+        <p>
+          Vin University Library <br>
+          3 Kieu Ky, Da Ton, Gia Lam <br>
+          Vinhomes Oceanpark, Ha Noi, Viet Nam <br>
+          Phone: +84-2471-089-779 | 1800-8189 <br>
+          Contact: library@vinuni.edu.vn <br>
+          <a href="https://library.vinuni.edu.vn/">Contact Us</a>
+        </p>
     </div>
   </div>
   <!-- Copyright -->

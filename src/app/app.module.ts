@@ -28,6 +28,9 @@ import { EagerThemesModule } from '../themes/eager-themes.module';
 import { APP_CONFIG, AppConfig } from '../config/app-config.interface';
 import { StoreDevModules } from '../config/store/devtools';
 import { RootModule } from './root.module';
+import { AboutComponent } from './about/about.component';
+import { FAQComponent } from './faq/faq.component';
+import { TeamMemberComponent } from './team-member/team-member.component';
 
 export function getConfig() {
   return environment;
@@ -120,6 +123,9 @@ const EXPORTS = [
   ],
   declarations: [
     ...DECLARATIONS,
+    AboutComponent,
+    FAQComponent,
+    TeamMemberComponent
   ],
   exports: [
     ...EXPORTS,

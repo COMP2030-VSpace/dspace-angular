@@ -55,7 +55,7 @@ export class CollectionPageComponent implements OnInit {
    * Whether the current user is a Community admin
    */
   isCollectionAdmin$: Observable<boolean>;
-
+  simpleView: boolean = true; // or determine its value dynamically
   /**
    * Route to the community page
    */

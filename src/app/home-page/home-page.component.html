@@ -1,9 +1,49 @@
 <ds-themed-home-news></ds-themed-home-news>
-<div class="container">
-  <ng-container *ngIf="(site$ | async) as site">
-    <ds-view-tracker [object]="site"></ds-view-tracker>
-  </ng-container>
-  <ds-search-form [inPlaceSearch]="false" [searchPlaceholder]="'home.search-form.placeholder' | translate"></ds-search-form>
-  <ds-top-level-community-list></ds-top-level-community-list>
-  <ds-recent-item-list *ngIf="recentSubmissionspageSize>0"></ds-recent-item-list>
+
+<div id="ds-main">
+  <div id="ds-body">
+    <ng-container *ngIf="(site$ | async) as site">
+      <ds-view-tracker [object]="site"></ds-view-tracker>
+    </ng-container>
+    <h1 class="ds-option-set-head" id="ds-search-option-head">WELCOME TO VinSPACE</h1>
+    VinSpace is an open access institutional repository provided by VinUniversity Library for scholarly research produced by members of the VinUniversity community. It enables members of the VinUniversity community to post, organize,  preserve and disseminate their research and publication online.
+    <p>Please check if your publisher allows self-archiving at <a href="https://v2.sherpa.ac.uk/romeo/">SHERPA/RoMEo's</a> publisher copyright policies</p>
+   <h1 class="ds-option-set-head" id="ds-search-option-head">Community in VinSpace</h1>
+    <ds-top-level-community-list>
+    </ds-top-level-community-list>
+    <ds-recent-item-list *ngIf="recentSubmissionspageSize>0"></ds-recent-item-list>
+
+  </div>
+
+  <div id="ds-options">
+    <h3 class="ds-option-set-head" id="ds-search-option-head">Search VinSpace</h3>
+    <div class="ds-option-set" id="ds-search-option">
+      <ds-search-form [inPlaceSearch]="false"
+        [searchPlaceholder]="'home.search-form.placeholder' | translate"></ds-search-form>
+    </div>
+    <h3 class="ds-option-set-head">Browse</h3>
+    <div id="ds-option-set" class="ds-option-set">
+      <li><a routerLink="/browse/title">Browse by Title</a></li>
+      <li><a routerLink="/browse/dateissued">Browse by Date</a></li>
+      <li><a routerLink="/browse/author">Browse by Author</a></li>
+      <li><a routerLink="/community-list">Browse by Community</a></li>
+    </div>
+    <h3 class="ds-option-set-head">Policy</h3>
+    <div id="ds-option-set" class="ds-option-set">
+      <li><a href="https://policy.vinuni.edu.vn/all-policies/regulations-for-research-activity-management/">VinUni Research Policy</a></li>
+      <li><a href="https://library.vinuni.edu.vn/">VinUni library</a></li>
+    </div>
+    <h3 class="ds-option-set-head">My Account</h3>
+    <div id="ds-option-set" class="ds-option-set">
+      <a routerLink="/login" id="login">Login</a>
+    </div>
+    <h3 class="ds-option-set-head" id="ds-about-option">About and FAQ</h3>
+    <div class="ds-option-set" id="ds-option-set">
+        <li><a routerLink="/about" id="route-options">About</a></li>
+        <li><a routerLink="/faq" id="route-options">FAQ</a></li>
+        <li><a routerLink="/teammember" id="route-options">Team Member</a></li>   
+    </div>
+  </div>
+
+
 </div>

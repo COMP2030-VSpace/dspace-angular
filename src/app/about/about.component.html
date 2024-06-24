@@ -1,0 +1,93 @@
+<div id="ds-main">
+  <div id="ds-body">
+    <h1> WELCOME TO VinSPACE</h1>
+    <p> Vinspace is an open access repository provided by VinUni Library for scholarly research produced by
+      members of the VinUniversity community</p>
+
+    <h2> What is Open Access? </h2>
+    Open Access is a method of scholarly publishing which is available online free to the user. Open Access users may
+    freely copy, distribute and used with proper attribution
+
+    <div id="open-access">
+      <h2>Open Access is not: </h2>
+      <div id="open-access-list">
+        <li> Cost free or cheaper than traditional scholarly communication </li>
+        <li> Lower quality than other methods of scholarly communication </li>
+        <li> Free to producers or free of rights </li>
+        <li> Inconsistent with peer review </li>
+      </div>
+    </div>
+    <div id="benefit">
+      <h2> What are the benefits of VinSpace for researchers and institution? </h2>
+      <h3>Benefits For Researchers </h3>
+      <p> More Exposure to your research: By publishing in a journal, your research is available only to people who
+        subscribe to
+        that journal or have access to a library that subscribes to that journal. By publishing your research in an
+        institutional repository, you make it available to anyone who is interested. Open Access breaks down the
+        barriers in
+        research accessibility between rich countries and Poor countries.</p>
+
+      <p> Higher research impact: Studies show that items published in an open access repository are often cited much
+        more
+        frequently than items published using traditional methods.</p>
+
+      <p> Easier Compliance with Open Access Mandates: Allows compliance with funding agencies such that have Open
+        Access
+        Policies</p>
+
+      <p> More Discoverability: Open access articles are fully searchable by search engines such as Google and Google
+        Scholar.</p>
+
+      <p> Persistent Access: Items in VinSpace are given a persistent URL that will not break. This means you can cite
+        your item
+        and not worry about the link changing in the future.</p>
+
+      <p> Long Term preservation: The library will take care of preserving your item and updating the format when
+        necessary.</p>
+
+      <h3>Benefits for Renison University College: </h3>
+      More exposure for our institution: By publishing in an institutional repository you can potentially make the
+      research
+      created by our institution available to a greater range of people. By collecting all of the University Colleges
+      research in one place, an institutional repository has the potential to give a more complete picture of our
+      research
+      output. This can help give a more complete picture of our research output to potential students, faculty members
+      and
+      donors. This can also help faculty in administrative roles evaluate the the research quality of different
+      departments
+      and colleges.
+    </div>
+  </div>
+
+  <div id="ds-options">
+    <h3 class="ds-option-set-head" id="ds-search-option-head">Search VinSpace</h3>
+    <div class="ds-option-set" id="ds-search-option">
+      <ds-search-form [inPlaceSearch]="false"
+        [searchPlaceholder]="'home.search-form.placeholder' | translate"></ds-search-form>
+    </div>
+    <h3 class="ds-option-set-head">Browse</h3>
+    <div id="ds-option-set" class="ds-option-set">
+      <li><a routerLink="/browse/title">Browse by Title</a></li>
+      <li><a routerLink="/browse/dateissued">Browse by Date</a></li>
+      <li><a routerLink="/browse/author">Browse by Author</a></li>
+      <li><a routerLink="/community-list">Browse by Community</a></li>
+    </div>
+    <h3 class="ds-option-set-head">Policy</h3>
+    <div id="ds-option-set" class="ds-option-set">
+      <li><a href="https://policy.vinuni.edu.vn/all-policies/regulations-for-research-activity-management/">VinUni Research Policy</a></li>
+      <li><a href="https://library.vinuni.edu.vn/">VinUni library</a></li>
+    </div>
+    <h3 class="ds-option-set-head">My Account</h3>
+    <div id="ds-option-set" class="ds-option-set">
+      <a routerLink="/login" id="login">Login</a>
+    </div>
+    <h3 class="ds-option-set-head" id="ds-about-option">About and FAQ</h3>
+    <div class="ds-option-set" id="ds-option-set">
+        <li><a routerLink="/about" id="route-options">About</a></li>
+        <li><a routerLink="/faq" id="route-options">FAQ</a></li>
+        <li><a routerLink="/teammember" id="route-options">Team Member</a></li>   
+    </div>
+  </div>
+
+
+</div>

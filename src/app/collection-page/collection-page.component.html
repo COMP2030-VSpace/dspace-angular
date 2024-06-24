@@ -54,6 +54,8 @@
                             [hideGear]="true">
                     </ds-viewable-collection>
                 </div>
+
+
                 <ds-error *ngIf="itemRD?.hasFailed"
                           message="{{'error.recent-submissions' | translate}}"></ds-error>
                 <ds-themed-loading *ngIf="!itemRD || itemRD.isLoading"
